@@ -13,7 +13,7 @@ function App() {
     <div className=" bg-slate-500 h-[100vh] relative">
       <div className="font-bold text-4xl flex justify-center flex-col items-center ">
         <div className="mt-7">{signture}</div>
-        <div className="mt-7">{date}</div>
+        <div className="mt-7">{date?date:"Date"}</div>
       </div>
       <div className="flex absolute bottom-24 w-full justify-between px-5 ">
         <input onChange={change} type="text" />
